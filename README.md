@@ -6,6 +6,9 @@ This project was completed as part of the ExcelR Data Analytics Training Program
 
 The project leverages SQL, Microsoft Excel, Power BI, and Tableau to transform raw manufacturing data into meaningful insights through interactive dashboards and KPI-driven analysis.
 
+This project was completed collaboratively as part of an internship-based learning program, with contributions across data analysis, KPI development, and dashboard creation.
+
+
 ## Tools Used
 
 * SQL
@@ -15,7 +18,7 @@ The project leverages SQL, Microsoft Excel, Power BI, and Tableau to transform r
 
 ## Project Type
 
-Industry-Oriented Data Analytics Project completed during a 3-Month Data Analytics Internship at AI Variant through the ExcelR Training Program.
+Industry-Oriented Manufacturing Analytics Project completed as part of ExcelR Data Analytics Training Program and  AI Variant Internship Program.
 
 ## My Contributions
 
@@ -51,16 +54,24 @@ Industry-Oriented Data Analytics Project completed during a 3-Month Data Analyti
 
 ### Tableau Dashboard
 
-![Tableau Dashboard](Tableau - Dashboard.png)
+![Tableau Dashboard](Tableau-Dashboard.png)
 
 ## Key Insights
 
-* Production efficiency exceeded 99%, indicating strong operational performance.
-* Rejection rates remained below 1%, reflecting effective quality control.
-* Machine-wise analysis identified equipment contributing to higher rejection volumes.
-* Department-wise analysis highlighted opportunities to reduce wastage and improve productivity.
-* KPI-driven dashboards enabled better monitoring of manufacturing performance and decision-making.
+* Total Produced Quantity reached 60.04M units, while Processed Quantity was 60.02M units, indicating a highly efficient manufacturing process.
 
+* Total Rejected Quantity was 490.96K units, representing approximately 0.82% of total production.
+
+* Wastage Quantity remained low at 27.96K units, reflecting effective resource utilization and waste control.
+
+* Machine MC027 recorded the highest rejected quantity (80,049 units), followed by MC026 (68,459 units), highlighting machines that require further quality investigation.
+
+* Employee-wise analysis showed Shruti Singh contributed the highest rejected quantity among employees, providing opportunities for performance monitoring and process improvement.
+
+* Department-wise production remained balanced across Footwear, Knitwear, Printed Fabric, and Woven Labels, with each department contributing nearly 15M units of production.
+
+* Production trends remained relatively stable throughout the selected period, indicating consistent manufacturing output.
+  
 ## Repository Contents
 
 * SQL Queries
@@ -71,7 +82,12 @@ Industry-Oriented Data Analytics Project completed during a 3-Month Data Analyti
 
 ## Business Recommendations
 
-* Implement predictive maintenance for high-rejection machines.
-* Strengthen quality control processes to further reduce defects.
-* Monitor department-wise performance to identify improvement opportunities.
-* Use KPI dashboards for continuous operational monitoring and decision-making.
+* Perform root-cause analysis on Machine MC027 and MC026 to reduce rejection rates.
+
+* Strengthen quality control measures in areas contributing to employee-wise rejection quantities.
+
+* Continue monitoring department-level performance to maintain balanced production output.
+
+* Implement preventive maintenance schedules for high-rejection machines.
+
+* Use dashboard-based KPI tracking to identify production bottlenecks and improve operational efficiency.
